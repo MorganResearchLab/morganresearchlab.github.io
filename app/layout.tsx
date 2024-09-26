@@ -1,5 +1,10 @@
 import { Source_Sans_3 } from '@next/font/google';
+import React, { ReactNode } from 'react';
 import "./globals.css";
+
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
 const sourceSans3 = Source_Sans_3({
   weight: ['400', '700'], // Specify the weights you need
@@ -15,7 +20,7 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={`${sourceSans3.className}`}>

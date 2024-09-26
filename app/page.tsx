@@ -44,7 +44,7 @@ export default function Home() {
         <div className="flex flex-col w-3/4 mx-auto">
           <h1 className="text-center mt-8 text-xl md:text-2xl lg:text-3xl font-bold mb-4">Our Research</h1>
           <p className="text-center text-base md:text-lg lg:text-xl">
-            In our lab, we study how ageing and genetics regulate immune cell states and cell-cell interactions, and how this impacts on immune-mediated diseases, notably autoimmunity. By developing state of the art computational algorithms, we model variation in cell states and cell-cell interactions using single cell 'omics data modalities. This involves combining graph theory and statistical models to identify which cell types or interactions are perturbed by ageing and genetics. The impact of our research is broadened by the computational algorithms that we develop, and their application through collaborations with research groups that study cancer and immunology both nationally and internationally.
+            In our lab, we study how ageing and genetics regulate immune cell states and cell-cell interactions, and how this impacts on immune-mediated diseases, notably autoimmunity. By developing state of the art computational algorithms, we model variation in cell states and cell-cell interactions using single cell omics data modalities. This involves combining graph theory and statistical models to identify which cell types or interactions are perturbed by ageing and genetics. The impact of our research is broadened by the computational algorithms that we develop, and their application through collaborations with research groups that study cancer and immunology both nationally and internationally.
           </p>
           <div className="flex justify-center mt-4">
             <button className="uppercase border-2 border-gray-600 text-white rounded px-4 py-2 hover:bg-gray-100">Learn More</button>
@@ -93,7 +93,7 @@ export default function Home() {
           <div className="flex flex-col items-start">
           <h1 className="text-left text-xl md:text-2xl lg:text-3xl font-bold mb-4 mt-2">News</h1>
             <ul>
-              <li>No good news yet :( stay tune! </li>
+              <li>No good news yet, stay tuned!</li>
             </ul>
           </div>
         </div>
