@@ -1,4 +1,4 @@
-import { Source_Sans_3 } from 'next/font/google';
+import { Source_Sans_3 } from '@next/font/google';
 import "./globals.css";
 
 const sourceSans3 = Source_Sans_3({
