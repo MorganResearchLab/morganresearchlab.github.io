@@ -1,0 +1,53 @@
+[
+    {
+        "id": 0,
+        "name": "Mike Morgan",
+        "role": "Principal Investigator",
+        "join_date": "01-01-1970",
+        "email": "michael.morgan@abdn.ac.uk",
+        "twitter": "MDMorgan_abz",
+        "website": "https://www.abdn.ac.uk/people/michael.morgan",
+        "github": "MikeDMorgan",
+        "image": "mike_morgan.png",
+        "bio": [
+            "Mike trained as a wet lab biologist in rheumatology research and genetics before jumping ship to become a computational biologist during his postdoctoral years in Oxford and Cambridge Universities. He contributed to, and developed his own computational methods and applied these to a range of immunological systems, including the ageing thymus, COVID19 and T cell development.",
+            "Mike spends his free time running and hiking the Scottish hills or trying to train his recalcitrant Springador Luna not to go chasing rabbits. Mike is not winning at the moment. He has a strong penchant for Yorkshire Tea (the best there is) and porridge. Mike is well suited to life in Scotland."
+        ],
+        "tag": [
+            "Computational Biology",
+            "Immunology",
+            "T cell lover",
+            "COVID19",
+            "Genetics",
+            "THE BOSS"
+        ]
+    }, {
+        "id": 1,
+        "name": "Haries Ramdhani",
+        "role": "PhD Student",
+        "join_date": "10-01-2023",
+        "email": "m.ramdhani.23@abdn.ac.uk",
+        "website": "https://hariesramdhani.github.io/",
+        "github": "hariesramdhani",
+        "image": "haries_ramdhani.png",
+        "bio": [
+            "Haries recently joined Morgan Lab for his PhD. Haries is originally from Jakarta, Indonesia, but at this point we can call him a nomad. Prior to joining, Haries earned his BSc from Gebze Technical University in Turkey followed by working as a data scientist for a Czech-based Finance Company.",
+            "Haries is interested in bioinformatics software and algorithm development, also the utilization of omics data to understand the complexity of biological systems through data visualization and machine learning. In his free time he loves watching nature documentaries, quiz shows and animated series. Haries also likes learning new languages (He still keeps his years of Duolingo streaks alive) and hacking random stuff."
+        ],
+        "tag": [
+            "Computational Biology",
+            "Software Development",
+            "Algorithm",
+            "THE FIRST WARRIOR"
+        ]
+    }, {
+        "id": 2,
+        "name": "This might be you!",
+        "role": "Scientist",
+        "join_date": "01-01-2099",
+        "bio": [
+            "We are always looking for talented scientists to join our team. Please get in touch with Mike if you would like to discuss your research ideas further."
+        ],
+        "image": "unknown.png"
+    }
+]
