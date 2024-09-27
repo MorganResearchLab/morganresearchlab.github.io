@@ -1,0 +1,21 @@
+[
+    {
+        "id": 0,
+        "name": "Kerry Woodward",
+        "role": "Masters Student",
+        "join_date": "03-01-2023",
+        "project": "Investigating the impact of tumorigenic mutations on immune gene expression programs in small bowel adenocarcinoma"
+    }, {
+        "id": 1,
+        "name": "Sristi Bhattacharjee",
+        "role": "Masters Student",
+        "join_date": "03-01-2024",
+        "project": "Do old T cells accumulate somatic mutations?"
+    }, {
+        "id": 2,
+        "name": "Changel K. Jolly",
+        "role": "Masters Student",
+        "join_date": "03-01-2024",
+        "project": "Which immune cells accumulate the most somatic mutations?"
+    }
+]
