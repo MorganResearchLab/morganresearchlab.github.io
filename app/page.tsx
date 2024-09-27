@@ -9,6 +9,9 @@ export const metadata = {
     icons: {
         icon: "/img/icon.png",
     },
+	verification: {
+		google: 'ZZZmoIrddz0n3aDCzk2PbAQrw9H0rPer6SQfEOyFkuY',
+	}
 };
 
 export default function Home() {
