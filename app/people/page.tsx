@@ -71,7 +71,7 @@ export default function People() {
                             </Link>
                         )}
                         {member.twitter && (
-                            <Link href={member.twitter}>
+                            <Link href={`https://x.com/${member.twitter}`}>
                                 <img src="/img/social/twitter.png" alt="Twitter" className="w-6 h-6 mr-2" />
                             </Link>
                         )}
@@ -81,7 +81,7 @@ export default function People() {
                             </Link>
                         )}
                         {member.github && (
-                            <Link href={member.github}>
+                            <Link href={`https://github.com/${member.github}`}>
                                 <img src="/img/social/github.png" alt="GitHub" className="w-6 h-6 mr-2" />
                             </Link>
                         )}
