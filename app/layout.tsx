@@ -3,10 +3,11 @@ import { Source_Sans_3 } from "@next/font/google";
 import React, { ReactNode } from "react";
 import "./globals.css";
 import Link from "next/link";
-import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import NewsFooter from "@/components/NewsFooter";
+import { useEffect, useRef, useState } from 'react';
+
 
 interface RootLayoutProps {
     children: ReactNode;
@@ -27,6 +28,52 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
     const isHomePage = pathname === "/";
 
+    const videoRef = useRef<HTMLVideoElement>(null);
+    const [isReversing, setIsReversing] = useState(false);
+
+    useEffect(() => {
+        const video = videoRef.current;
+        if (!video) return;
+
+        let animationFrameId: number;
+
+        const playForward = () => {
+            video.play();
+            setIsReversing(false);
+        };
+
+        const playBackward = () => {
+            setIsReversing(true);
+            video.pause();
+
+            const reverseFrame = () => {
+                if (video.currentTime > 0) {
+                    video.currentTime = Math.max(0, video.currentTime - 0.033);
+                    animationFrameId = requestAnimationFrame(reverseFrame);
+                } else {
+                    playForward();
+                }
+            };
+
+            animationFrameId = requestAnimationFrame(reverseFrame);
+        };
+
+        const handleVideoPlayback = () => {
+            if (!isReversing && video.currentTime >= video.duration) {
+                playBackward();
+            } else if (isReversing && video.currentTime <= 0) {
+                playForward();
+            }
+        };
+
+        video.addEventListener('timeupdate', handleVideoPlayback);
+
+        return () => {
+            video.removeEventListener('timeupdate', handleVideoPlayback);
+            cancelAnimationFrame(animationFrameId);
+        };
+    }, [isReversing]);
+
     return (
         <html lang="en">
             <body className={`${sourceSans3.className}`}>
@@ -35,8 +82,15 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <div
                         id="hero"
                         className="relative bg-cover bg-center h-screen"
-                        style={{ backgroundImage: "url('/img/hero.png')" }}
                     >
+                        <video
+                            ref={videoRef}
+                            className="absolute top-0 left-0 w-full h-full object-cover"
+                            src="/videos/hero.mp4"
+                            autoPlay
+                            loop
+                            muted
+                        />
                         <div className="absolute inset-0 bg-black opacity-10 sm:hidden"></div>
                         <div
                             id="navbar"

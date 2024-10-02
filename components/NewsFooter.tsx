@@ -11,6 +11,7 @@ interface News {
 }
 
 export default function NewsFooter() {
+
     const pathname = usePathname();
     const [news, setNews] = useState<News[]>([]);
 
