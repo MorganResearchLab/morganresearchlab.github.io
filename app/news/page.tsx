@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-import { list } from "postcss";
 import React, { useEffect, useState } from "react";
 
 interface News {
@@ -13,8 +11,6 @@ interface News {
 }
 
 export default function News() {
-    const getYear = (dateString: string) => dateString.split("-")[2];
-
     const [news, setNews] = useState<News[]>([]);
 
     useEffect(() => {
