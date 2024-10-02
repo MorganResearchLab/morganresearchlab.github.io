@@ -33,3 +33,7 @@ In the current version, you can edit these parts of the website:
 Will add more!
 
 If you're feeling adventurous you might also update the source code.
+
+### Credit
+- Icons are obtained from flaticon.com
+- Image on the Homepage is AI-generated with "microscopy image of t cells with different fluorescent colors" prompt before being reverted to grayscale, blurred and added black layer with alpha of 0.1

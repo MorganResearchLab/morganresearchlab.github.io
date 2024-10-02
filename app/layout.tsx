@@ -98,16 +98,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
                                     People
                                 </Link>
                                 <Link
-                                    href="#"
+                                    href="/news"
                                     className="hover:text-gray-400 text-sm md:text-base lg:text-lg"
                                 >
-                                    Publications
+                                    News
                                 </Link>
                                 <Link
                                     href="#"
                                     className="hover:text-gray-400 text-sm md:text-base lg:text-lg"
                                 >
-                                    News
+                                    Publications
                                 </Link>
                                 <Link
                                     href="#"
@@ -197,16 +197,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
                                     People
                                 </Link>
                                 <Link
-                                    href="#"
+                                    href="/news"
                                     className="hover:text-gray-400 text-sm md:text-base lg:text-lg"
                                 >
-                                    Publications
+                                    News
                                 </Link>
                                 <Link
                                     href="#"
                                     className="hover:text-gray-400 text-sm md:text-base lg:text-lg"
                                 >
-                                    News
+                                    Publications
                                 </Link>
                                 <Link
                                     href="#"
