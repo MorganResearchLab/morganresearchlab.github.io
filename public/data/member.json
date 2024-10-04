@@ -30,8 +30,8 @@
         "github": "hariesramdhani",
         "image": "haries_ramdhani.png",
         "bio": [
-            "Haries recently joined Morgan Lab for his PhD. Haries is originally from Jakarta, Indonesia, but at this point we can call him a nomad. Prior to joining, Haries earned his BSc from Gebze Technical University in Turkey followed by working as a data scientist for a Czech-based Finance Company.",
-            "Haries is interested in bioinformatics software and algorithm development, also the utilization of omics data to understand the complexity of biological systems through data visualization and machine learning. In his free time he loves watching nature documentaries, quiz shows and animated series. Haries also likes learning new languages (He still keeps his years of Duolingo streaks alive) and hacking random stuff."
+            "Haries joined Morgan Lab in 2023 for his PhD to work on robust and scalable differential cell-to-cell communication method development. Haries is originally from Jakarta, Indonesia, but at this point we can call him a nomad. Prior to joining, Haries earned his BSc from Gebze Technical University in Turkey followed by working as a data scientist for a Czech-based Finance Company.",
+            "Haries is interested in bioinformatics software and algorithm development, also the utilisation of omics data to understand the complexity of biological systems through data visualization and machine learning. In his free time he loves watching nature documentaries, quiz shows and animated series. Haries also likes learning new languages (He still keeps his years of Duolingo streaks alive) and hacking random stuff."
         ],
         "tag": [
             "Computational Biology",
@@ -40,7 +40,26 @@
             "THE FIRST WARRIOR"
         ]
     }, {
-        "id": 2,
+        "id": 1,
+        "name": "Calum Bane",
+        "role": "PhD Student",
+        "join_date": "10-01-2024",
+        "email": "m.ramdhani.23@abdn.ac.uk",
+        "github": "calumb96",
+        "image": "calum_bane.png",
+        "bio": [
+            "Callum joined the Morgan Lab in October 2024 to pursue his PhD, following four years in industry. After graduating from the University of Aberdeen with a BSc in Genetics (Immunology) in 2019, he completed an MSc in Cancer Research at the University of Glasgow before working for Merck from 2020 to 2024. Now, Callum is excited to return to Aberdeen with the Morgan lab and focus on research into CHIP and age-related immune remodelling.",
+            "In his spare time, Callum enjoys bagging Munros and staying active, watching football, or simply relaxing with a beer and some music."
+        ],
+        "tag": [
+            "Immunology",
+            "Computational Biology",
+            "Ageing",
+            "#1 Munro Bagger",
+            "THE FIRST (WET LAB) WARRIOR"
+        ]
+    }, {
+        "id": 9999,
         "name": "This might be you!",
         "role": "Scientist",
         "join_date": "01-01-2099",

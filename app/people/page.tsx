@@ -113,7 +113,7 @@ export default function People() {
                                 </div>
                                 {member.tag && member.tag.length > 0 && (
                                     
-                                    <div className="flex flex-wrap mb-5">
+                                    <div className="flex flex-wrap mb-5 gap-y-1">
                                         {member.tag.map((tag) => (
                                             <span
                                                 key={tag}
