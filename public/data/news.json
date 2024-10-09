@@ -6,5 +6,14 @@
         "content": [
             "One more member for Morgan Lab, Calum is a new PhD student and will be working with Mike and Candice on understanding how ageing affects T-cells!"
         ]
+    },
+    {
+        "id": 1,
+        "title": "Welcome David!",
+        "date": "10-03-2024",
+        "content": [
+            "In a veritable tsunami of new lab members, Dr David Wragg joins the lab as a postdoc, jointly with Dr Eunchai Kang's group, to work on single-cell analysis of a cerebral organoid model of Alzheimer' disease onset. Welcome David"
+        ]
+
     }
 ]
