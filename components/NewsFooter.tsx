@@ -10,8 +10,14 @@ interface News {
     content: string;
 }
 
-export default function NewsFooter() {
+const generateSlug = (title: string) => {
+    return title
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "");
+};
 
+export default function NewsFooter() {
     const pathname = usePathname();
     const [news, setNews] = useState<News[]>([]);
 
@@ -20,7 +26,13 @@ export default function NewsFooter() {
     useEffect(() => {
         fetch("/data/news.json")
             .then((response) => response.json())
-            .then((data) => setNews(data));
+            .then((data) => {
+                const sortedData = data.sort(
+                    (a: News, b: News) =>
+                        new Date(b.date).getTime() - new Date(a.date).getTime()
+                );
+                setNews(sortedData.slice(0, 4));
+            });
     }, []);
 
     return (
@@ -34,9 +46,14 @@ export default function NewsFooter() {
                         <ul className="list-disc">
                             {news.map((newsItem, index) => (
                                 <li key={index}>
-                                    {/* <Link href={`/news/${newsItem.id}`}> */}
-                                    [{newsItem.date}] - {newsItem.title}
-                                    {/* </Link> */}
+                                    <a
+                                        href={`news#${generateSlug(
+                                            newsItem.title
+                                        )}`}
+                                        className="text-white hover:underline"
+                                    >
+                                        [{newsItem.date}] - {newsItem.title}
+                                    </a>
                                 </li>
                             ))}
                         </ul>
