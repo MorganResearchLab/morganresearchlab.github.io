@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "Georg Holländer",
+        "institution": "University of Basel & Oxford University",
+        "project": "Progeny-progenitor relationships in the thymic epithelium"
+    },
+    {
+        "id": 1,
+        "name": "Doug Winton",
+        "institution": "Cancer Research UK-Cambridge Institute, University of Cambridge",
+        "project": "Genetic and genomic regulation of intestinal stem cell dynamics"
+    },
+    {
+        "id": 2,
+        "name": "Alejandra Bruna",
+        "institution": "Institute of Cancer Research, London",
+        "project": "Evolution of chemotherapeutic resistance in neuroblastoma"
+    },
+    {
+        "id": 3,
+        "name": "Tim Halim",
+        "institution": "Cancer Research UK-Cambridge Institute, University of Cambridge",
+        "project": "Single-cell profiling of innate-like lymphoid cells in pancreatic cancer"
+    },
+    {
+        "id": 4,
+        "name": "Maike de la Roche",
+        "institution": "Cancer Research UK-Cambridge Institute, University of Cambridge",
+        "project": "The role of Gli1 and hedgehog signalling in thymocyte development"
+    },
+    {
+        "id": 5,
+        "name": "Patrick Cao",
+        "institution": "Institute of Medical Sciences, University of Aberdeen",
+        "project": "Developing Lecto-seq for combined single-cell profiling of glycan-lectin interactions and transcriptomes"
+    }
+]
