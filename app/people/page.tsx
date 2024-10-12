@@ -60,7 +60,7 @@ export default function People() {
                             <div className="w-full md:w-1/2 flex flex-col items-center justify-center">
                                 <img
                                     src={`/img/member/${member.image}`}
-                                    alt="Mike Morgan"
+                                    alt={member.name}
                                     className="rounded-lg w-56 h-56"
                                 />
                             </div>

@@ -1,5 +1,6 @@
 import MemberHomepage from "@/components/MemberHomepage";
 import ResearchHomepage from "@/components/ResearchHomepage";
+import FunderHomepage from "@/components/FunderHomepage";
 
 export const metadata = {
     title: "Morgan Lab",
@@ -20,6 +21,8 @@ export default function Home() {
 			<ResearchHomepage />
             <hr className="border-t border-gray-600 w-3/4 mx-auto mt-8" />
 			<MemberHomepage />
+            <hr className="border-t border-gray-600 w-3/4 mx-auto mt-8" />
+            <FunderHomepage />
         </>
     );
 }

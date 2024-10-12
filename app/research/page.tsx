@@ -1,47 +1,149 @@
-import React from 'react';
+"use client";
 
-export const metadata = {
-    title: 'Research - Morgan Lab',
-    description: 'Website for Morgan Lab at the University of Aberdeen: Life course engineering to promote healthy ageing',
-    icons: {
-      icon: '/img/icon.png',
-    },
-  };
+import React, { useEffect, useState } from "react";
+
+interface Research {
+    id: number;
+    title: string;
+    image: string | null;
+    content: string[];
+}
+
+interface currentResearch {
+    content: string[];
+}
+
+interface Collaborator {
+	id: number;
+	name: string;
+	institution: string;
+	project: string;
+}
 
 export default function Research() {
-  return (
-    <>
-        <div className="flex flex-col w-full">
-            <div className="flex flex-col w-3/4 mx-auto">
-            <h1 className="text-left mt-8 text-xl md:text-2xl lg:text-3xl font-bold mb-4">[Current Research]</h1>
-            <p className="text-justify text-base md:text-lg lg:text-xl">
-            Single-cell omic profiling has revealed a bewildering diversity of cell types and states defined at the mRNA and protein levels. We are now in the position to scale up these experiments to profile biological systems across large cohorts of volunteers and patients to understand how these cell states are affected by our genetic make-up and the environments that we live in. Moreover, by profiling complex compositions of cells using dissociated single-cell RNA-sequencing and spatial transcriptomic/proteomic approaches we can resolve how interactions between cells are regulated at the genetic level, how this manifests as cell-to-cell variability, and how this predisposes people to immune-mediated diseases.
-            </p>
-            
+    const [research, setResearch] = useState<Research[]>([]);
+    const [currentResearch, setCurrentResearch] = useState<currentResearch | null>(null);
+	const [collaborators, setCollaborators] = useState<Collaborator[]>([]);
+	
+    useEffect(() => {
+        fetch("/data/research.json")
+            .then((response) => response.json())
+            .then((data) => setResearch(data));
+    }, []);
+
+    useEffect(() => {
+        fetch("/data/current_research.json")
+            .then((response) => response.json())
+            .then((data) => setCurrentResearch(data));
+    }, []);
+
+	useEffect(() => {
+		fetch("/data/collaborator.json")
+			.then((response) => response.json())
+			.then((data) => setCollaborators(data));
+	}, []);
+
+    return (
+        <>
+            <div className="flex flex-col w-full">
+                <div className="flex flex-col w-3/4 mx-auto">
+                    <h1 className="text-left mt-8 text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                        [Current Research]
+                    </h1>
+                    <p className="text-justify text-base md:text-lg lg:text-xl">
+                        {currentResearch?.content}
+                    </p>
+                </div>
             </div>
-        </div>
-        <hr className="border-t border-gray-600 w-3/4 mx-auto mt-8" />
-        <div className="flex flex-col w-full">
-            <div className="flex flex-col w-3/4 mx-auto">
-            <h1 className="text-right mt-8 text-xl md:text-2xl lg:text-3xl font-bold mb-4">[Computational research]</h1>
-            <p className="text-justify text-base md:text-lg lg:text-xl">
-            In my previous appointment I developed a computational algorithm, called Milo, to identify perturbed cell states from single-cell experiments (Dann et al. Nature Biotech 2022). Milo uses a blend of graph theory (nearest-neighbour graphs) and statistical modelling (generalized linear models) to identify which cell states are enriched or depleted in an experiment. My lab continues to develop this framework to incorporate mixed effect models and employ graph-theory to improve the computational speed. Such advancements open the door to statistical genetic analyses of single cell data. My lab uses these computational advances to solve biomedical problems from basic research to disease - which broadens the impact of our research.
-            <br/><br/>
-            For further reading see Dann et al., Nature Biotech 2022 and Kluzer et al., bioRxiv 2023
-            </p>
-            
+            <hr className="border-t border-gray-600 w-3/4 mx-auto mt-8" />
+            {research.map((research, index) => (
+                <div key={index}>
+                    <div className="flex flex-col w-full my-2">
+                        <div className="flex flex-col md:flex-row justify-between items-center w-3/4 mx-auto">
+                            {index % 2 === 0 ? (
+                                <>
+                                    {research.image ? (
+                                        <img
+                                            src={`/img/research/${research.image}`}
+                                            alt={research.title}
+                                            className="rounded-lg w-96 mr-5"
+                                            style={{ height: "auto" }}
+                                        />
+                                    ) : (
+                                        <div className="rounded-lg w-96 h-56 bg-gray-300 flex items-center justify-center mr-5">
+                                            <span className="text-gray-500">
+                                                No Image
+                                            </span>
+                                        </div>
+                                    )}
+                                    <div className="w-full md:w-1/2 flex flex-col justify-center mt-4 md:mt-0">
+                                        <p className="text-2xl font-semibold cursor-pointer text-right">
+                                            {research.title}
+                                        </p>
+                                        <p className="text-lg text-justify">
+                                            {research.content.map(
+                                                (content, i) => (
+                                                    <React.Fragment key={i}>
+                                                        {content}
+                                                        <br />
+                                                        <br />
+                                                    </React.Fragment>
+                                                )
+                                            )}
+                                        </p>
+                                    </div>
+                                </>
+                            ) : (
+                                <>
+                                    <div className="w-full md:w-1/2 flex flex-col justify-center mt-4 md:mt-0">
+                                        <p className="text-2xl font-semibold cursor-pointer text-left">
+                                            {research.title}
+                                        </p>
+                                        <p className="text-lg text-justify">
+                                            {research.content.map(
+                                                (content, i) => (
+                                                    <React.Fragment key={i}>
+                                                        {content}
+                                                        <br />
+                                                        <br />
+                                                    </React.Fragment>
+                                                )
+                                            )}
+                                        </p>
+                                    </div>
+                                    {research.image ? (
+                                        <img
+                                            src={`/img/research/${research.image}`}
+                                            alt={research.title}
+                                            className="rounded-lg w-96 h-56 ml-5"
+                                        />
+                                    ) : (
+                                        <div className="rounded-lg w-96 h-56 bg-gray-300 flex items-center justify-center ml-5">
+                                            <span className="text-gray-500">
+                                                No Image
+                                            </span>
+                                        </div>
+                                    )}
+                                </>
+                            )}
+                        </div>
+                    </div>
+
+                    <hr className="border-t border-gray-600 w-3/4 mx-auto" />
+                </div>
+            ))}
+            <div className="flex flex-col w-full">
+                <div className="flex flex-col w-3/4 mx-auto">
+                    <h1 className="text-left mt-8 text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                        Our Collaborators
+                    </h1>
+                    {collaborators.map((collaborator, index) => (
+                            <li key={index}>
+                                <span className="font-bold">{collaborator.name} </span> ({collaborator.institution}) - {collaborator.project}
+                            </li>
+                        ))}
+                </div>
             </div>
-        </div>
-        <hr className="border-t border-gray-600 w-3/4 mx-auto mt-8" />
-        <div className="flex flex-col w-full">
-            <div className="flex flex-col w-3/4 mx-auto">
-            <h1 className="text-left mt-8 text-xl md:text-2xl lg:text-3xl font-bold mb-4">[Experimental Research]</h1>
-            <p className="text-justify text-base md:text-lg lg:text-xl">
-            I have recently developed an in vitro system to co-culture and stimulate peripheral immune system cells as a  model of immune response and T cell:antigen presenting cell interactions. The motivation is to use this experimental system to probe how ageing and genetic variation shapes the way that immune cells communicate with each other to shape and direct proper immune responses. Using statistical genetics, we can then identify which genetic variants alter immune cell activation and cell-to-cell communication, and how this predisposes to a range of immune-related diseases, such as autoimmunity and cancer.
-            </p>
-            
-            </div>
-        </div>
-    </>
-  );
+        </>
+    );
 }

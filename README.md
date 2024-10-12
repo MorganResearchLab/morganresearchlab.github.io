@@ -26,9 +26,13 @@ Commit your changes once you're done and once the Github Action finishes running
 
 In the current version, you can edit these parts of the website:
 - Alumni on `/people`: `alumni.json`
+- Collaborator on `/research`: `collaborator.json`
+- Current Research header on `/research`: `current_research.json`
+- Funder on homepage: `funder.json`
 - Member on `/people` and homepage: `member.json`
 - News on `/news` and homepage: `news.json`
 - "Our Research" section on homepage: `research_intro.json`
+- Research details on `/research`: `research.json`
 
 Will add more!
 

@@ -1,0 +1,15 @@
+[
+    {
+        "id": 0,
+        "name": "University of Aberdeen",
+        "logo": "university_of_aberdeen.png"
+    }, {
+        "id": 1,
+        "name": "The Royal Society",
+        "logo": "the_royal_society.png"
+    }, {
+        "id": 2,
+        "name": "Friends of Anchor",
+        "logo": "friends_of_anchor.png"
+    }
+]
