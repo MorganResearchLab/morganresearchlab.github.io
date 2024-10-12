@@ -235,6 +235,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <hr className="border-t border-gray-600 w-3/4 mx-auto mt-8" />
                 <div id="footer" className="flex flex-col w-full">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-3/4 mx-auto mb-5">
+                        <NewsFooter/>
                         <div className="flex flex-col items-start">
                             <p className="mt-8">
                                 Morgan Laboratory
@@ -256,8 +257,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                                 alt="University of Aberdeen Logo"
                                 className="w-32 h-auto mt-4"
                             />
-                        </div>
-                        <NewsFooter/>    
+                        </div>    
                     </div>
                 </div>
             </body>
