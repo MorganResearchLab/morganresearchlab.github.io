@@ -34,7 +34,7 @@ export default function FunderHomepage() {
                         <img
                             src={`/img/funder/${funder.logo}`}
                             alt={funder.name}
-                            className="rounded-lg h-56 h-32"
+                            className="rounded-lg h-32 w-32"
                         />
                     </div>
                 ))}
