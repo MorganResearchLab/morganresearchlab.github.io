@@ -65,10 +65,12 @@
         "join_date": "03-10-2024",
         "email": "david.wragg@abdn.ac.uk",
         "github": "gibberwocky",
+        "twitter": "SpookyDo0",
+        "website": "https://scholar.google.com/citations?user=qE8iQusAAAAJ&hl=en",
         "image": "david_wragg.png",
         "bio": [
             "David, a computational biologist, co-joined the Morgan lab and Kang-Berg lab in Ocobter 2024. He has extensive experience in genomics across a range of species, having worked at the University of Nottingham, INRAe Toulouse, and the Roslin Institute. He is applying single-cell omics to brain organoids to study neurological disorders.",
-            "In his spare time, David supports a honey bee genetics community interest company (Beebytes Analystics CIC) he co-founded, exercises two rescue dogs, and entertains his kids. He enjoys watching international rugby, K-dramas, and tabletop gaming."
+            "Most of his spare time is spent entertaining two rescue dogs and his kids. He enjoys watching international rugby, K-dramas, B-movies, tabletop gaming, occasionally painting and playing guitar. He is a co-founder of a honey bee genetics community interest company (Beebytes Analystics CIC)."
         ],
         "tag": [
             "Computational Biology",
