@@ -12,6 +12,7 @@ interface Member {
     twitter: string | null;
     website: string | null;
     github: string | null;
+    scholar: string | null;
     image: string;
     bio: string[];
     tag: string[];

@@ -12,6 +12,7 @@ interface Member {
     twitter: string | null;
     website: string | null;
     github: string | null;
+    scholar: string | null;
     image: string;
     bio: string[];
     tag: string[];
@@ -106,6 +107,15 @@ export default function People() {
                                             <img
                                                 src="/img/social/github.png"
                                                 alt="GitHub"
+                                                className="w-6 h-6 mr-2"
+                                            />
+                                        </Link>
+                                    )}
+                                    {member.scholar && (
+                                        <Link href={member.scholar}>
+                                            <img
+                                                src="/img/social/scholar.png"
+                                                alt="Goolge Scholar"
                                                 className="w-6 h-6 mr-2"
                                             />
                                         </Link>
