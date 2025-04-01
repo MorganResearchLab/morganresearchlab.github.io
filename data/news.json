@@ -13,8 +13,26 @@
         "title": "Welcome David!",
         "date": "10-03-2024",
         "content": [
-            "In a veritable tsunami of new lab members, Dr David Wragg joins the lab as a postdoc, jointly with Dr Eunchai Kang's group, to work on single-cell analysis of a cerebral organoid model of Alzheimer' disease onset. Welcome David"
+            "In a veritable tsunami of new lab members, Dr David Wragg joins the lab as a postdoc, jointly with Dr Eunchai Kang's group, to work on single-cell analysis of a cerebral organoid model of Alzheimer' disease onset. Welcome David!"
         ]
 
+    },
+    {
+        "id": 2,
+        "title": "Haries was at Ascona 2025!",
+        "date": "03-28-2025",
+        "image": "ascona_2025.png",
+        "content": [
+            "Haries attended the Modern Benchmarking: Advancing Computational Methods in Molecular Biology conference in Ascona, Switzerland (March 23–27), where he presented benCCChmarker—a Python framework for standardized benchmarking of cell-to-cell communication inference algorithms. Excellent work, Haries!"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Mike and Calum shine at SIGNET 2025!",
+        "date": "03-27-2025",
+        "image": "signet_2025.png",
+        "content": [
+            "Mike and Calum made a strong impression at the SIGNET 2025 conference in Perth, Scotland, on March 27th. Mike as an invited speaker presenting his work on 'Single-Cell Genetics Reveals Cell State Drivers of Immune-Mediated Disease' and Calum with his engaging poster on 'Age-Related Gut Microbiome Alterations and Their Role in Clonal Haematopoiesis-Driven Immune Remodelling.' Fantastic work from both!"
+        ]
     }
 ]
