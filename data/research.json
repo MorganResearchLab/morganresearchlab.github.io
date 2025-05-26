@@ -11,7 +11,9 @@
         "id": 1,
         "title": "[Experimental Research]",
         "content": [
-            "I have recently developed an in vitro system to co-culture and stimulate peripheral immune system cells as a model of immune response and T cell:antigen presenting cell interactions. The motivation is to use this experimental system to probe how ageing and genetic variation shapes the way that immune cells communicate with each other to shape and direct proper immune responses. Using statistical genetics, we can then identify which genetic variants alter immune cell activation and cell-to-cell communication, and how this predisposes to a range of immune-related diseases, such as autoimmunity and cancer."
+            "Emerging unpublished results from the lab indicate that somatic mutations, as a hallmark of ageing, contribute to immune system dysregulation. In parallel, immune checkpoint receptors show heterogeneous regulatory changes across the life course, which in tandem could contribute to immunosenescence. These are active areas of research in the lab driven by two questions:"
+            "1. How do somatic mutations shape immune responses to pathogens?"
+            "2. How does ageing re-wire autocrine and paracrine signalling during an adaptive immune response?"
         ]
     }
 ]
