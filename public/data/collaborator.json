@@ -28,11 +28,5 @@
         "name": "Maike de la Roche",
         "institution": "Cancer Research UK-Cambridge Institute, University of Cambridge",
         "project": "The role of Gli1 and hedgehog signalling in thymocyte development"
-    },
-    {
-        "id": 5,
-        "name": "Patrick Cao",
-        "institution": "Institute of Medical Sciences, University of Aberdeen",
-        "project": "Developing Lecto-seq for combined single-cell profiling of glycan-lectin interactions and transcriptomes"
     }
 ]
