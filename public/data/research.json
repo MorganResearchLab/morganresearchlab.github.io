@@ -4,7 +4,7 @@
         "title": "[Computational research]",
         "image": "milo.png",
         "content": [
-            "In my previous appointment I developed a computational algorithm, called Milo, to identify perturbed cell states from single-cell experiments (Dann et al. Nature Biotech 2022). "
+            "In my previous appointment I developed a computational algorithm, called Milo, to identify perturbed cell states from single-cell experiments (Dann et al. Nature Biotech 2022). ",
             "Milo uses a blend of graph theory (nearest-neighbour graphs) and statistical modelling (generalized linear models) to identify which cell states are enriched or depleted in an experiment. My lab continues to develop this framework to incorporate mixed effect models and employ graph-theory to improve the computational speed. Such advancements open the door to statistical genetic analyses of single cell data. My lab uses these computational advances to solve biomedical problems from basic research to disease - which broadens the impact of our research.",
             "For further reading see Dann et al., Nature Biotech 2022 and Kluzer et al., bioRxiv 2023"
         ]
@@ -12,8 +12,8 @@
         "id": 1,
         "title": "[Experimental Research]",
         "content": [
-            "Emerging unpublished results from the lab indicate that somatic mutations, as a hallmark of ageing, contribute to immune system dysregulation. In parallel, immune checkpoint receptors show heterogeneous regulatory changes across the life course, which in tandem could contribute to immunosenescence. These are active areas of research in the lab driven by two questions:"
-            "1. How do somatic mutations shape immune responses to pathogens?"
+            "Emerging unpublished results from the lab indicate that somatic mutations, as a hallmark of ageing, contribute to immune system dysregulation. In parallel, immune checkpoint receptors show heterogeneous regulatory changes across the life course, which in tandem could contribute to immunosenescence. These are active areas of research in the lab driven by two questions:",
+            "1. How do somatic mutations shape immune responses to pathogens?",
             "2. How does ageing re-wire autocrine and paracrine signalling during an adaptive immune response?"
         ]
     }
