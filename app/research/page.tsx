@@ -66,7 +66,7 @@ export default function Research() {
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="rounded-lg w-full mr-5"
+                                            className="rounded-lg w-96 mr-5"
 											style={{ height: "auto" }}
                                         />
                                     ) : (
@@ -115,7 +115,7 @@ export default function Research() {
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="rounded-lg w-full ml-5"
+                                            className="rounded-lg w-96 ml-5"
 											style={{ height: "auto" }}
                                         />
                                     ) : (
