@@ -11,17 +11,17 @@
     },
     {
         "id": 2,
-        "title": "Dann E, Henderson NC, Teichmann SA, Morgan MD, Marioni JC (2022) Differential abundance testing on single-cell data using <i>k</i>-nearest neighbour graphs. Nature Biotechnology 40(2). 245-253",
+        "title": "Dann E, Henderson NC, Teichmann SA, Morgan MD, Marioni JC (2022) Differential abundance testing on single-cell data using k-nearest neighbour graphs. Nature Biotechnology 40(2). 245-253",
         "doi": "https://doi.org/10.1038/s41587-021-01033-z"
     },
     {
         "id": 3,
-        "title": "Stephenson E, <i>et al.</i> (2021) Single-cell multi-omics analysis of the immune response in COVID-19. Nature Medicine 27(5). 904-916",
+        "title": "Stephenson E, et al. (2021) Single-cell multi-omics analysis of the immune response in COVID-19. Nature Medicine 27(5). 904-916",
         "doi": "https://doi.org/10.1038/s41591-021-01329-2"
     },
     {
         "id": 4,
-        "title": "Baran-Gale J, <i>et al.</i> (2020) Ageing compromises mouse thymus function and remodel epithelial cell differentiation. eLife 9. e5621",
+        "title": "Baran-Gale J, et al. (2020) Ageing compromises mouse thymus function and remodel epithelial cell differentiation. eLife 9. e5621",
         "doi": "https://doi.org/10.7554/eLife.56221"
     }
 ]
