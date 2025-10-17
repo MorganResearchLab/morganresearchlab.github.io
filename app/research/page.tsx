@@ -55,18 +55,18 @@ export default function Research() {
                     </p>
                 </div>
             </div>
-            <hr className="border-t border-gray-600 w-3/4 mx-auto mt-8" />
+            <hr className="border-t border-gray-600 w-10/12 mx-auto mt-8" />
             {research.map((research, index) => (
                 <div key={index}>
                     <div className="flex flex-col w-full my-2">
-                        <div className="flex flex-col md:flex-row justify-between items-center w-3/4 mx-auto">
+                        <div className="flex flex-col md:flex-row justify-between items-center w-10/12 mx-auto">
                             {index % 2 === 0 ? (
                                 <>
                                     {research.image ? (
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="rounded-lg w-96 mr-5"
+                                            className="rounded-lg w-full mr-5"
 											style={{ height: "auto" }}
                                         />
                                     ) : (
@@ -115,7 +115,8 @@ export default function Research() {
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="rounded-lg w-96 ml-5"
+                                            className="rounded-lg w-full ml-5"
+											style={{ height: "auto" }}
                                         />
                                     ) : (
                                         <div className="rounded-lg w-96 h-56 bg-gray-300 flex items-center justify-center ml-5">
