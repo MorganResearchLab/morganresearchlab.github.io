@@ -66,8 +66,8 @@ export default function Research() {
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="rounded-lg mr-5 w-full sm:w-auto sm:max-w-96"
-											style={{ height: "auto" }}
+                                            className="rounded-lg mr-5"
+											style={{ width: "900px", height: "auto" }}
                                         />
                                     ) : (
                                         <div className="rounded-lg w-96 h-56 bg-gray-300 flex items-center justify-center mr-5">
