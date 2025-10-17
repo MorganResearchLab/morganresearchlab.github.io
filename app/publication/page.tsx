@@ -50,7 +50,7 @@ export default function Publications() {
                 <div className="flex flex-col w-11/12 md:w-3/4 mx-auto">
                     {sortedYears.map((year) => (
                         <div key={year} className="mb-8">
-                            <h2 className="text-xl md:text-2xl font-semibold mb-4 text-gray-800">
+                            <h2 className="text-xl md:text-2xl font-semibold mb-4 text-white">
                                 {year}
                             </h2>
                             <ul className="list-disc pl-5 space-y-4">
