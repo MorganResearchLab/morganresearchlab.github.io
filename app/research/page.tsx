@@ -67,7 +67,7 @@ export default function Research() {
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="w-full h-full object-contain"
+                                            className="w-full h-full object-cover"
                                         />
 									</div>
                                     ) : (
