@@ -2,26 +2,31 @@
     {
         "id": 0,
         "title": "Calvo-Assensio I, Tarcevski A, Dhalla F, Kusch A, Barthlott T, Zukly S, Holländer G, Morgan MD. (2025) Ly6d expression delineates two putative postnatal thymus epithelial progenitor cells that are differentially affected by ageing. bioRxiv (pre-print)",
-        "doi": "https://doi.org/10.1101/2025.08.28.672880"
+        "doi": "https://doi.org/10.1101/2025.08.28.672880",
+        "year": 2025
     },
     {
         "id": 1,
         "title": "Kluzer A, Marioni JC, Morgan MD. (2023) Milo 2.0 unlocks population genetic analyses of cell state abundance using a count-based mixed model. bioRxiv (pre-print)",
-        "doi": "https://doi.org/10.1101/2023.11.08.566176"
+        "doi": "https://doi.org/10.1101/2023.11.08.566176",
+        "year": 2023
     },
     {
         "id": 2,
         "title": "Dann E, Henderson NC, Teichmann SA, Morgan MD, Marioni JC (2022) Differential abundance testing on single-cell data using k-nearest neighbour graphs. Nature Biotechnology 40(2). 245-253",
-        "doi": "https://doi.org/10.1038/s41587-021-01033-z"
+        "doi": "https://doi.org/10.1038/s41587-021-01033-z",
+        "year": 2022
     },
     {
         "id": 3,
         "title": "Stephenson E, et al. (2021) Single-cell multi-omics analysis of the immune response in COVID-19. Nature Medicine 27(5). 904-916",
-        "doi": "https://doi.org/10.1038/s41591-021-01329-2"
+        "doi": "https://doi.org/10.1038/s41591-021-01329-2",
+        "year": 2021
     },
     {
         "id": 4,
         "title": "Baran-Gale J, et al. (2020) Ageing compromises mouse thymus function and remodel epithelial cell differentiation. eLife 9. e5621",
-        "doi": "https://doi.org/10.7554/eLife.56221"
+        "doi": "https://doi.org/10.7554/eLife.56221",
+        "year": 2020
     }
 ]
