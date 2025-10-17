@@ -17,5 +17,23 @@
         "role": "Masters Student",
         "join_date": "03-01-2024",
         "project": "Which immune cells accumulate the most somatic mutations?"
+    }, {
+        "id": 3,
+        "name": "Katie Annandale":
+        "role": "Honours project student",
+        "join_date": "13-01-2025",
+        "project": "The mutational signatures of T cell ageing"
+    }, {
+        "id": 4,
+        "name": "Irena Delgado Alcoverro",
+        "role": "Honours project student",
+        "join_date": "13-01-2025",
+        "project": "The impact of ageing-associated somatic mutations on T cell transcriptional programs"
+    }, {
+        "id": 5,
+        "name": "Nicholas Pittelkow",
+        "role": "Honours project student",
+        "join_date": "13-01-2025",
+        "project": "The mutational signatures of T cell ageing"
     }
 ]
