@@ -28,5 +28,11 @@
         "name": "Maike de la Roche",
         "institution": "Cancer Research UK-Cambridge Institute, University of Cambridge",
         "project": "The role of Gli1 and hedgehog signalling in thymocyte development"
+    },
+    {
+        "id": 5,
+        "name": "Eunchai Kang",
+        "institution": "Institute of Medical Sciences, University of Aberdeen",
+        "project": "Understanding APOE-mediated microglial functions in Alzheimer's disease using human brain organoids"
     }
 ]
