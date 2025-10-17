@@ -6,8 +6,7 @@
     "content": [
       "Milo performs statistical testing to identify differential cell state abundance in single-cell omics experiments. It leverages nearest-neighbour graph neighbourhoods to group transcriptionally similar cells across experimental samples.",
       "Hypothesis testing uses generalised linear and mixed effect models to identify which cell neighbourhoods (cell states) differ between experimental and study conditions.",      
-      "For more details see our two papers on Milo: <a href=https://doi.org/10.1038/s41587-021-01033-z>Dann et al</a> and <a href=https://doi.org/10.1101/2023.11.08.566176>Kluzer et al</a>",
-      "Milo is fully open-source and available through the Bioconductor repository:"
+      "For more details see our two papers on Milo under Publication. Milo is fully open-source and available through the Bioconductor repository:"
     ],
     "doi": "https://doi.org/10.18129/B9.bioc.miloR>miloR",
     "github": "https://github.com/MarioniLab/miloR"
