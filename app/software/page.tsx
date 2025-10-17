@@ -7,6 +7,8 @@ interface Software {
     title: string;
     image: string;
     content: string[];
+    github?: string;
+    doi?: string;
 }
 
 export default function Software() {
@@ -44,6 +46,18 @@ export default function Software() {
                                 <h2 className="text-2xl font-semibold mb-2">
                                     {item.title}
                                 </h2>
+                                <div className="flex flex-row mb-3 space-x-4">
+                                    {item.github && (
+                                        <a href={item.github} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline font-medium">
+                                            GitHub
+                                        </a>
+                                    )}
+                                    {item.doi && (
+                                        <a href={item.doi} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline font-medium">
+                                            DOI
+                                        </a>
+                                    )}
+                                </div>
                                 {item.content.map((paragraph, pIndex) => (
                                     <p key={pIndex} className="text-sm mb-3">
                                         {paragraph}
@@ -60,3 +74,4 @@ export default function Software() {
         </>
     );
 }
+
