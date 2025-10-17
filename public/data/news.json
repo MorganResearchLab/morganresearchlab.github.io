@@ -38,9 +38,19 @@
     {
         "id": 4,
         "title": "Aarushi Chakraborty and Mahati Iyyappan join the lab",
-        "data": "08-22-2025",
+        "date": "22-08-2025",
         "content": [
             "Aarushi (3rd year Genetics (Immunology)) and Mahati (2nd year MBChB), both undergraduates here in Aberdeen, joined the lab for 8 weeks working on somatic mutations, antigen recall responses and ageing T cells. Aarushi is now off on a 1 year work placement in Oxford and Mahati is returning to her medical studies. It was a pleasure hosting you both in the lab."
         ]
-    }
+    },
+    {
+        "id": 5,
+        "title": "Lab hike to Tom's Cairn",
+        "date": "09-10-2025",
+        "image": "summit_photo.jpg",
+        "content": [
+            "To celebrate the 3rd anniversary of the Morgan Lab, we went for a hike up to Tom's Cairn, a local hill and landmark. The weather was fantastic and we enjoyed a sumptuous lunch at the Finzean Farm shop cafe as a reward.",
+            "Mike has promised that the next lab day will involve less 'exercise' (maybe)."
+        ]
+    }   
 ]
