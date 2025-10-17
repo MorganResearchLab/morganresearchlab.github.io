@@ -78,6 +78,19 @@
             "Boggart wrangler"
         ]
     }, {
+        "id": 4,
+        "name": "Kyle Sim",
+        "role" "Research technical professional",
+        "join_date": "01-10-2022",
+        "bio": [
+            "Kyle is a research technician who supports all of the experimental work we do. Basically, we'd get nothing done with out him. Kyle previously worked in clinical microbiology, after his undergraduate degree from Robert Gordons University.",
+            "Kyle spends his time reading, reading, doing yoga, and reading (with some board games and film nights thrown in for variety)."
+        ],
+        "tag": [
+            "Books",
+            "Board games"
+        ]
+    }, {
         "id": 9999,
         "name": "This might be you!",
         "role": "Scientist",
