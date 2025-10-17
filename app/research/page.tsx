@@ -55,11 +55,11 @@ export default function Research() {
                     </p>
                 </div>
             </div>
-            <hr className="border-t border-gray-600 w-10/12 mx-auto mt-8" />
+            <hr className="border-t border-gray-600 w-4/5 mx-auto mt-8" />
             {research.map((research, index) => (
                 <div key={index}>
                     <div className="flex flex-col w-full my-2">
-                        <div className="flex flex-col md:flex-row justify-between items-center w-10/12 mx-auto">
+                        <div className="flex flex-col md:flex-row justify-between items-center w-4/5 mx-auto">
                             {index % 2 === 0 ? (
                                 <>
                                     {research.image ? (
