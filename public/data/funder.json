@@ -11,5 +11,9 @@
         "id": 2,
         "name": "Friends of Anchor",
         "logo": "friends_of_anchor.png"
+    }, {
+        "id": 3,
+        "name": "Tenovus Scotland",
+        "logo": "tenovus.png"
     }
 ]
