@@ -111,13 +111,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
                                     News
                                 </Link>
                                 <Link
-                                    href="#"
+                                    href="/publications"
                                     className="hover:text-gray-400 text-sm md:text-base lg:text-lg"
                                 >
                                     Publications
                                 </Link>
                                 <Link
-                                    href="#"
+                                    href="/software"
                                     className="hover:text-gray-400 text-sm md:text-base lg:text-lg"
                                 >
                                     Software
