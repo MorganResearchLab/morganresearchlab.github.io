@@ -63,12 +63,13 @@ export default function Research() {
                             {index % 2 === 0 ? (
                                 <>
                                     {research.image ? (
+									<div className="rounded-lg w-96 h-64 mr-5 overflow-hidden">
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="rounded-lg mr-5 max-w-96"
-                                            style={{ height: "auto" }}
+                                            className="w-full h-full object-contain"
                                         />
+									</div>
                                     ) : (
                                         <div className="rounded-lg w-96 h-56 bg-gray-300 flex items-center justify-center mr-5">
                                             <span className="text-gray-500">
