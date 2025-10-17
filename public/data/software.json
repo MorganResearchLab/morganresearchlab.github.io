@@ -9,7 +9,8 @@
       "For more details see our two papers on Milo: <a href=https://doi.org/10.1038/s41587-021-01033-z>Dann et al</a> and <a href=https://doi.org/10.1101/2023.11.08.566176>Kluzer et al</a>",
       "Milo is fully open-source and available through the Bioconductor repository:"
     ],
-    "doi": "https://doi.org/10.18129/B9.bioc.miloR>miloR"
+    "doi": "https://doi.org/10.18129/B9.bioc.miloR>miloR",
+    "github": "https://github.com/MarioniLab/miloR"
   },
   {
     "id": 1,
@@ -20,6 +21,6 @@
       "However, current bioinformatics processing tools might not be making the most of the barcode data. We developed Scarecrow to allow both nucleotide mismatches and positional shifts in the position of cell barcodes from single cell sequencing libraries.",
       "Scarecrow is fast and scalable, and can improve useable sequencing read recovery up to 65%. Checkout the manuscript for more details: "
     ],
-    "doi": ""
+    "github": "https://github.com/MorganResearchLab/scarecrow"
 ]
       
