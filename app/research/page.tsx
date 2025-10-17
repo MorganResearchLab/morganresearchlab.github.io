@@ -115,7 +115,7 @@ export default function Research() {
                                         <img
                                             src={`/img/research/${research.image}`}
                                             alt={research.title}
-                                            className="rounded-lg w-96 h-56 ml-5"
+                                            className="rounded-lg w-96 ml-5"
                                         />
                                     ) : (
                                         <div className="rounded-lg w-96 h-56 bg-gray-300 flex items-center justify-center ml-5">
